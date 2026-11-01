@@ -86,6 +86,20 @@ src/main/asset-pack/                       # In-game assets (UI pages, icons)
 |------|-------------|
 | `extendedteleporters.feature.private` | Allow creating private teleporters |
 | `extendedteleporters.feature.restricted` | Allow creating restricted teleporters |
+| `extendedteleporters.feature.lock_interaction` | Can lock teleporter interaction |
+| `extendedteleporters.feature.lock_break` | Can lock teleporter breaking |
+| `extendedteleporters.feature.self_destruct` | Can enable self-destruct mode |
+| `extendedteleporters.feature.restricted` | Allow creating restricted teleporters |
+| `extendedteleporters.feature.hide_world/hide_coords` | Can hide location info from non-admin lists |
+| `extendedteleporters.limit` | Max total teleporters owned (upon reaching it, cannot place anymore) |
+| `extendedteleporters.limit.private` | Max private teleporters |
+| `extendedteleporters.limit.restricted` | Max restricted teleporters |
+
+Meta Values (numeric limits, 0 = unlimited):
+
+
+
+
 
 ## License
 
